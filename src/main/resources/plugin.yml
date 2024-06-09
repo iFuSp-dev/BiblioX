@@ -1,0 +1,18 @@
+main: org.aifusp.Main
+version: 0.0.1
+name: BiblioX
+author: aifusp
+api-version: 1.13
+depend: [NBTAPI]
+
+
+
+commands:
+  bibliox:
+    description: Comando principal del plugin
+    aliases:
+      - bib
+  getBook:
+    description: comando para recibir libro a partir del nobre
+    aliases:
+      - gb
